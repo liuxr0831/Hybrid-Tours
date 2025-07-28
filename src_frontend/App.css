@@ -1,0 +1,15 @@
+.grabbing {
+  pointer-events: auto !important;
+  cursor: grabbing !important;
+  cursor: -moz-grabbing !important;
+  cursor: -webkit-grabbing !important;
+}
+
+#gaussian-spatting-canvas {
+  background-color: black;
+}
+
+/* canvas {
+  width: 225px !important;
+  height: 400px !important;
+} */

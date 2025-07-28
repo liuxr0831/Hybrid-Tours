@@ -1,0 +1,14 @@
+name: Hybrid_Tours
+channels:
+  - defaults
+dependencies:
+  - python=3.9.18
+  - pip:
+    - bintrees==2.2.0
+    - Flask==3.0.3
+    - Flask_Cors==4.0.0
+    - numpy==1.24.3
+    - numpy_quaternion==2022.4.4
+    - opencv_python==4.9.0.80
+    - scipy==1.13.1
+    - setuptools==68.2.2

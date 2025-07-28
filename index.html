@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hybrid Tours</title>
+
+    <!-- Style -->
+    <style>
+      label {
+        font-size: 1.8cqw;
+      }
+
+      button {
+        font-size: 1.8cqw;
+      }
+
+      .row_container {
+        container-type: inline-size;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+        margin-top: 0.5cqw;
+        margin-bottom: 0.5cqw;
+      }
+
+      .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        container-type: inline-size;
+      }
+
+      .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 1cqw;
+        transition: 0s;
+        font-size: 2cqw;
+      }
+
+      .tab button:hover {
+        background-color: #ddd;
+      }
+
+      .tab button.active {
+        background-color: #ccc;
+      }
+
+      .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        container-type: inline-size;
+      }
+
+      .min_max_slider_start::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        pointer-events: all;
+        width: 1.5cqw;
+        height: 1.5cqw;
+        background-color: #0a0;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px #c6c6c6;
+        cursor: pointer;
+      }
+
+      .min_max_slider_start::-moz-range-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        pointer-events: all;
+        width: 1.5cqw;
+        height: 1.5cqw;
+        background-color: #0a0;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px #c6c6c6;
+        cursor: pointer;
+      }
+
+      .min_max_slider_start {
+        -webkit-appearance: none;
+        appearance: none;
+        height: 0.5cqw;
+        width: 67%;
+        position: absolute;
+        background-color: #c6c6c6;
+        pointer-events: none;
+        margin-top: 1cqw;
+        margin-left: 1cqw;
+      }
+
+      .min_max_slider_end::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        pointer-events: all;
+        width: 1.5cqw;
+        height: 1.5cqw;
+        background-color: #a00;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px #c6c6c6;
+        cursor: pointer;
+      }
+
+      .min_max_slider_end::-moz-range-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        pointer-events: all;
+        width: 1.5cqw;
+        height: 1.5cqw;
+        background-color: #a00;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px #c6c6c6;
+        cursor: pointer;
+      }
+
+      .min_max_slider_end {
+        -webkit-appearance: none;
+        appearance: none;
+        height: 0.5cqw;
+        width: 67%;
+        position: absolute;
+        background-color: #c6c6c6;
+        pointer-events: none;
+        margin-top: 1cqw;
+        margin-left: 1cqw;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src_frontend/main.tsx"></script>
+  </body>
+</html>

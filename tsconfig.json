@@ -1,0 +1,12 @@
+{
+  "include": ["src_frontend"],
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./src_frontend",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "types": ["vite-plugin-svgr/client"]
+  },
+  "extends": "@tsconfig/vite-react/tsconfig.json"
+}
